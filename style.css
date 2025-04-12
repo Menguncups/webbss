@@ -1,0 +1,94 @@
+.group-6 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    transition: transform 0.4s ease;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .group-6:hover {
+    transform: scale(1.02) rotateX(2deg) rotateY(-2deg);
+  }
+  
+  /* Zoom-in untuk gambar */
+  .group-6 img {
+    transition: transform 0.4s ease;
+  }
+  
+  .group-6:hover img {
+    transform: scale(1.1);
+  }
+  
+
+  /* Optional: Gradient overlay saat hover */
+  .group-6::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom right, rgba(255,255,255,0.05), rgba(255,255,255,0));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
+  }
+  
+  .group-6:hover::before {
+    opacity: 1;
+  }
+  
+  /* Menambahkan animasi mengetik */
+.hi {
+  font-family: 'Righteous', sans-serif;
+  font-size: 80px;
+  color: white;
+  white-space: nowrap; /* Menjaga agar teks tetap dalam satu baris */
+  overflow: hidden; /* Menghilangkan teks yang belum muncul */
+  border-right: 4px solid white; /* Kursor seperti pengetikan */
+  animation: typing 4s steps(8) 1s 1 normal both, blink 0.75s step-end infinite;
+}
+
+/* Animasi mengetik */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Animasi kursor berkedip */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+/* Menambahkan animasi mengetik */
+.hi {
+    font-family: 'Righteous', sans-serif;
+    font-size: 80px;
+    color: white;
+    white-space: nowrap; /* Menjaga agar teks tetap dalam satu baris */
+    overflow: hidden; /* Menghilangkan teks yang belum muncul */
+    display: inline-block;
+    animation: typing 4s steps(7) 1s forwards, blink 0.75s step-end infinite;
+  }
+  
+  /* Animasi mengetik */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Animasi kursor berkedip */
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
