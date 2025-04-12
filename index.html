@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="style.css" />
 
-
 <html>
   <head>
     <meta charset="utf-8" />
@@ -20,9 +19,8 @@
     <style>
       @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
-      @import url("https://fonts.googleapis.com/css?family=Roboto:400|Righteous:400");
+      @import url("https://fonts.googleapis.com/css?family=Righteous:400|Roboto:400,700|Inter:400");
 
-      /* The following line is used to measure usage of this code. You can remove it if you want. */
       @import url("https://px.animaapp.com/67fa1e4552f17bd1203d1c3a.67fa1e4652f17bd1203d1c3d.vbVkYCG.hch.png");
 
       .screen textarea:focus,
@@ -216,12 +214,20 @@
       }
       :root {
         --black: #000000;
+        --bunker: #141516;
+        --stack: #8b8b8b;
         --tussock: #c99b50;
         --white: #ffffff;
 
-        --font-size-l: 35px;
+        --font-size-l: 20px;
         --font-size-m: 16px;
+        --font-size-xl: 25px;
+        --font-size-xxl: 30px;
+        --font-size-xxxl: 35px;
+        --font-size-xxxxl: 40px;
+        --font-size-xxxxxl: 80px;
 
+        --font-family-inter: "Inter", Helvetica;
         --font-family-righteous: "Righteous", Helvetica;
         --font-family-roboto: "Roboto", Helvetica;
       }
@@ -233,98 +239,746 @@
         font-weight: 400;
       }
 
+      .righteous-normal-white-80px {
+        color: var(--white);
+        font-family: var(--font-family-righteous);
+        font-size: var(--font-size-xxxxxl);
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .righteous-normal-stack-25px {
+        color: var(--stack);
+        font-family: var(--font-family-righteous);
+        font-size: var(--font-size-xl);
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .roboto-bold-white-30px {
+        color: var(--white);
+        font-family: var(--font-family-roboto);
+        font-size: var(--font-size-xxl);
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      .righteous-normal-tussock-35px {
+        color: var(--tussock);
+        font-family: var(--font-family-righteous);
+        font-size: var(--font-size-xxxl);
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .righteous-normal-white-30px {
+        color: var(--white);
+        font-family: var(--font-family-righteous);
+        font-size: var(--font-size-xxl);
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .roboto-normal-white-20px {
+        color: var(--white);
+        font-family: var(--font-family-roboto);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .roboto-bold-white-20px {
+        color: var(--white);
+        font-family: var(--font-family-roboto);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      .roboto-bold-white-16px {
+        color: var(--white);
+        font-family: var(--font-family-roboto);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 700;
+      }
+
       :root {
       }
 
-      /* screen - sistem-multimedia */
-
-      .sistem-multimedia {
-        background-color: #141516;
-        height: 906px;
+      .intro {
+        background-color: var(--bunker);
+        height: 5402px;
         overflow-x: hidden;
         position: relative;
         width: 1920px;
       }
 
-      .sistem-multimedia .nav-list-7cbsGm {
-        background-color: #141516;
-        height: 49px;
-        left: 0px;
+      .intro .university-of-riau-s-a1KK9a {
+        background-color: transparent;
+        color: var(--white);
+        font-family: var(--font-family-righteous);
+        font-size: var(--font-size-xxxxl);
+        font-style: normal;
+        font-weight: 400;
+        height: 250px;
+        left: 852px;
+        letter-spacing: 1.6px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 1556px;
+        width: 673px;
+      }
+
+      .intro .a-b-o-u-t-a1KK9a {
+        background-color: transparent;
+        height: 43px;
+        left: 852px;
+        letter-spacing: 1.4px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 1468px;
+        width: auto;
+      }
+
+      .intro .rectangle-3-a1KK9a {
+        background-color: var(--tussock);
+        height: 1px;
+        left: 852px;
+        position: absolute;
+        top: 1512px;
+        width: 169px;
+      }
+
+      .intro .k-u-l-i-a-h-a1KK9a {
+        background-color: transparent;
+        height: 43px;
+        left: 333px;
+        letter-spacing: 1.4px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 2254px;
+        width: auto;
+      }
+
+      .intro .g-a-l-l-e-r-y-a1KK9a {
+        background-color: transparent;
+        height: 43px;
+        left: 332px;
+        letter-spacing: 1.4px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 3357px;
+        width: auto;
+      }
+
+      .intro .rectangle-4-a1KK9a {
+        background-color: var(--tussock);
+        height: 1px;
+        left: 333px;
+        position: absolute;
+        top: 2298px;
+        width: 185px;
+      }
+
+      .intro .rectangle-5-a1KK9a {
+        background-color: var(--tussock);
+        height: 1px;
+        left: 332px;
+        position: absolute;
+        top: 3401px;
+        width: 227px;
+      }
+
+      .intro .c-o-n-t-a-c-t-m-e-a1KK9a {
+        background-color: transparent;
+        height: 43px;
+        left: 332px;
+        letter-spacing: 1.4px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 4439px;
+        width: auto;
+      }
+
+      .intro .rectangle-6-a1KK9a {
+        background-color: var(--tussock);
+        height: 1px;
+        left: 332px;
+        position: absolute;
+        top: 4483px;
+        width: 321px;
+      }
+
+      .intro .frame-1-a1KK9a {
+        background-color: transparent;
+        height: 611px;
+        left: 259px;
         overflow: hidden;
         position: absolute;
-        top: 0px;
-        width: 1920px;
+        top: 1391px;
+        width: 541px;
       }
 
-      .sistem-multimedia .group-1-5YU6RV {
+      .intro .rectangle-2-a1KK9a {
         background-color: transparent;
-        height: 49px;
-        left: 261px;
-        position: relative;
-        top: 0px;
-        width: 1399px;
+        height: 60px;
+        left: 852px;
+        position: absolute;
+        top: 1915px;
+        width: 380px;
       }
 
-      .sistem-multimedia .item-link-oLyZuq {
+      .intro .download-cv-a1KK9a {
+        background-color: transparent;
+        color: var(--tussock);
+        font-family: var(--font-family-righteous);
+        font-size: var(--font-size-l);
+        font-style: normal;
+        font-weight: 400;
+        height: 60px;
+        left: 853px;
+        letter-spacing: 0.8px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 1914px;
+        width: 379px;
+      }
+
+      .intro .beberapa-matkul-di-semester-2-a1KK9a {
+        background-color: transparent;
+        height: 69px;
+        left: 335px;
+        letter-spacing: 1.2px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 2297px;
+        width: 1250px;
+      }
+
+      .intro .jangan-ragu-untuk-me-a1KK9a {
+        background-color: transparent;
+        height: 74px;
+        left: 332px;
+        letter-spacing: 1.2px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 4521px;
+        width: 1328px;
+      }
+
+      .intro .ini-adalah-galeri-ya-a1KK9a {
+        background-color: transparent;
+        height: 37px;
+        left: 332px;
+        letter-spacing: 1.2px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 3451px;
+        width: 1328px;
+      }
+
+      .intro .group-3-a1KK9a {
+        background-color: transparent;
+        height: 341px;
+        left: 261px;
+        position: absolute;
+        top: 343px;
+        width: 1017px;
+      }
+
+      .intro .nav-list-a1KK9a {
+        position: absolute;
+      }
+
+      .intro .item-link-rLeMen {
         left: 1119px;
         width: 280px;
       }
 
-      .sistem-multimedia .contact-me-x4Qq3e {
-        background-color: transparent;
-        height: 19px;
-        left: 91px;
-        letter-spacing: 0px;
-        line-height: normal;
-        position: absolute;
-        text-align: center;
-        top: 15px;
-        white-space: nowrap;
-        width: 99px;
-      }
-
-      .sistem-multimedia .item-link-OwUBNj {
+      .intro .item-link-yFA2bo {
         left: 839px;
         width: 280px;
       }
 
-      .sistem-multimedia .gallery-5FxaQx {
-        background-color: transparent;
-        height: 19px;
-        left: 91px;
-        letter-spacing: 0px;
-        line-height: normal;
-        position: absolute;
-        text-align: center;
-        top: 15px;
-        white-space: nowrap;
-        width: 99px;
-      }
-
-      .sistem-multimedia .item-link-pRI5Ri {
+      .intro .item-link-dVjLNQ {
         left: 560px;
         width: 279px;
       }
 
-      .sistem-multimedia .college-CDPzI5 {
-        background-color: transparent;
-        height: 19px;
-        left: 91px;
-        letter-spacing: 0px;
-        line-height: normal;
-        position: absolute;
-        text-align: center;
-        top: 15px;
-        white-space: nowrap;
-        width: 99px;
-      }
-
-      .sistem-multimedia .item-link-RAxISx {
+      .intro .item-link-OUQ26I {
         left: 280px;
         width: 280px;
       }
 
-      .sistem-multimedia .about-kYjB5l {
+      .intro .item-link-y4J7pz {
+        left: 0px;
+        width: 280px;
+      }
+
+      .intro .group-7-a1KK9a {
+        background-color: transparent;
+        height: 825px;
+        left: 335px;
+        position: absolute;
+        top: 2384px;
+        width: 1250px;
+      }
+
+      .intro .group-6-TrSGEt {
+        left: 0px;
+        top: 0px;
+        width: 406px;
+      }
+
+      .intro .rectangle-16-uxrqXs {
+        left: 0px;
+      }
+
+      .intro .sistem-multimedia-uxrqXs {
+        background-color: transparent;
+        height: 35px;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 74px;
+        width: 400px;
+      }
+
+      .intro .nama-dosen-uxrqXs {
+        left: 142px;
+        top: 109px;
+      }
+
+      .intro .mata-kuliah-sistem-m-uxrqXs {
+        background-color: transparent;
+        height: 68px;
+        left: 20px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 317px;
+        width: 360px;
+      }
+
+      .intro .image-1-uxrqXs {
+        background-color: transparent;
+        height: 99px;
+        left: 125px;
+        object-fit: cover;
+        position: absolute;
+        top: 186px;
+        width: 150px;
+      }
+
+      .intro .group-6-3d5Ncs {
+        left: 850px;
+        top: 0px;
+        width: 406px;
+      }
+
+      .intro .rectangle-16-yRLG3S {
+        left: 0px;
+      }
+
+      .intro .algoritma-struktur-data-yRLG3S {
+        background-color: transparent;
+        height: 70px;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 39px;
+        width: 400px;
+      }
+
+      .intro .nama-dosen-yRLG3S {
+        left: 142px;
+        top: 109px;
+      }
+
+      .intro .mata-kuliah-ini-memp-yRLG3S {
+        background-color: transparent;
+        height: 49px;
+        left: 20px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 336px;
+        width: 360px;
+      }
+
+      .intro .image-yRLG3S {
+        height: 99px;
+        left: 125px;
+        object-fit: cover;
+        top: 186px;
+        width: 150px;
+      }
+
+      .intro .group-6-xpxgdR {
+        left: 0px;
+        top: 425px;
+        width: 406px;
+      }
+
+      .intro .rectangle-16-utJJ15 {
+        left: 0px;
+      }
+
+      .intro .sitem-digital-utJJ15 {
+        background-color: transparent;
+        height: 35px;
+        left: 96px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 70px;
+        white-space: nowrap;
+        width: auto;
+      }
+
+      .intro .nama-dosen-utJJ15 {
+        left: 142px;
+        top: 105px;
+      }
+
+      .intro .mata-kuliah-sistem-d-utJJ15 {
+        background-color: transparent;
+        height: 68px;
+        left: 20px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 317px;
+        width: 360px;
+      }
+
+      .intro .image-utJJ15 {
+        height: 99px;
+        left: 125px;
+        object-fit: cover;
+        top: 175px;
+        width: 150px;
+      }
+
+      .intro .group-6-eA7G6H {
+        left: 849px;
+        top: 425px;
+        width: 407px;
+      }
+
+      .intro .rectangle-16-IyYToD {
+        left: 1px;
+      }
+
+      .intro .interaksi-manusia-komputer-IyYToD {
+        background-color: transparent;
+        height: 70px;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 37px;
+        width: 401px;
+      }
+
+      .intro .nama-dosen-IyYToD {
+        left: 143px;
+        top: 107px;
+      }
+
+      .intro .mata-kuliah-interaks-IyYToD {
+        background-color: transparent;
+        height: 86px;
+        left: 21px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 299px;
+        width: 360px;
+      }
+
+      .intro .image-IyYToD {
+        height: 99px;
+        left: 126px;
+        object-fit: cover;
+        top: 175px;
+        width: 150px;
+      }
+
+      .intro .group-6-ndegiL {
+        left: 425px;
+        top: 425px;
+        width: 406px;
+      }
+
+      .intro .rectangle-16-242ci9 {
+        left: 0px;
+      }
+
+      .intro .matematika-diskrit-242ci9 {
+        background-color: transparent;
+        height: 35px;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 70px;
+        width: 400px;
+      }
+
+      .intro .nama-dosen-242ci9 {
+        left: 142px;
+        top: 105px;
+      }
+
+      .intro .mata-kuliah-matemati-242ci9 {
+        background-color: transparent;
+        height: 68px;
+        left: 29px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 317px;
+        width: 334px;
+      }
+
+      .intro .image-242ci9 {
+        height: 93px;
+        left: 125px;
+        top: 181px;
+        width: 141px;
+      }
+
+      .intro .group-6-CxLF1B {
+        left: 425px;
+        top: 0px;
+        width: 406px;
+      }
+
+      .intro .rectangle-16-Roruq6 {
+        left: 0px;
+      }
+
+      .intro .arsitektur-organisasi-komputer-Roruq6 {
+        background-color: transparent;
+        height: 70px;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 39px;
+        width: 400px;
+      }
+
+      .intro .nama-dosen-Roruq6 {
+        left: 142px;
+        top: 109px;
+      }
+
+      .intro .mata-kuliah-ini-meru-Roruq6 {
+        background-color: transparent;
+        height: 68px;
+        left: 20px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 317px;
+        width: 360px;
+      }
+
+      .intro .image-Roruq6 {
+        height: 99px;
+        left: 132px;
+        object-fit: cover;
+        top: 186px;
+        width: 150px;
+      }
+
+      .intro .group-8-a1KK9a {
+        background-color: transparent;
+        height: 320px;
+        left: 591px;
+        position: absolute;
+        top: 4746px;
+        width: 740px;
+      }
+
+      .intro .envelope-streamline-bootstrap-yPKhNi {
+        background-color: transparent;
+        height: 110px;
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        width: 110px;
+      }
+
+      .intro .whatsapp-streamline-font-awesome-yPKhNi {
+        background-color: transparent;
+        height: 110px;
+        left: 210px;
+        position: absolute;
+        top: 0px;
+        width: 110px;
+      }
+
+      .intro .instagram-streamline-bootstrap-yPKhNi {
+        background-color: transparent;
+        height: 110px;
+        left: 420px;
+        position: absolute;
+        top: 0px;
+        width: 110px;
+      }
+
+      .intro .github-streamline-bootstrap-yPKhNi {
+        background-color: transparent;
+        height: 110px;
+        left: 630px;
+        position: absolute;
+        top: 0px;
+        width: 110px;
+      }
+
+      .intro .facebook-streamline-bootstrap-yPKhNi {
+        background-color: transparent;
+        height: 110px;
+        left: 0px;
+        position: absolute;
+        top: 210px;
+        width: 110px;
+      }
+
+      .intro .twitter-x-streamline-bootstrap-yPKhNi {
+        background-color: transparent;
+        height: 110px;
+        left: 210px;
+        position: absolute;
+        top: 210px;
+        width: 110px;
+      }
+
+      .intro .discord-streamline-bootstrap-yPKhNi {
+        background-color: transparent;
+        height: 110px;
+        left: 420px;
+        position: absolute;
+        top: 210px;
+        width: 110px;
+      }
+
+      .intro .telegram-streamline-bootstrap-yPKhNi {
+        background-color: transparent;
+        height: 110px;
+        left: 630px;
+        position: absolute;
+        top: 210px;
+        width: 110px;
+      }
+
+      .intro .footer-a1KK9a {
+        background-color: transparent;
+        height: 76px;
+        left: 0px;
+        opacity: 0.6;
+        position: absolute;
+        top: 5326px;
+        width: 1920px;
+      }
+
+      .intro .separator-Ohlbpi {
+        background-color: transparent;
+        border: 1px solid;
+        border-color: var(--white);
+        height: 2px;
+        left: 10px;
+        overflow: hidden;
+        position: absolute;
+        top: 10px;
+        width: 1900px;
+      }
+
+      .intro .yusuf-budiawan-azri-Ohlbpi {
+        background-color: transparent;
+        color: var(--white);
+        font-family: var(--font-family-inter);
+        font-size: 14.2px;
+        font-style: normal;
+        font-weight: 400;
+        height: 17px;
+        left: 10px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 47px;
+        white-space: nowrap;
+        width: 138px;
+      }
+
+      .intro .frame-8-a1KK9a {
+        background-color: #0b0202;
+        height: 562px;
+        left: 378px;
+        overflow: hidden;
+        position: absolute;
+        top: 3585px;
+        width: 1180px;
+      }
+
+      .intro .nav-list-W6NDaq {
+        position: fixed;
+      }
+
+      .intro .item-link-Z0udIz {
+        left: 1119px;
+        width: 280px;
+      }
+
+      .intro .item-link-CTUtAl {
+        left: 839px;
+        width: 280px;
+      }
+
+      .intro .item-link-pUBn7O {
+        left: 560px;
+        width: 279px;
+      }
+
+      .intro .item-link-Jz1XKF {
+        left: 280px;
+        width: 280px;
+      }
+
+      .intro .item-link-XGJp2Y {
+        left: 0px;
+        width: 280px;
+      }
+
+      .intro .about {
         background-color: transparent;
         height: 19px;
         left: 114px;
@@ -337,12 +991,109 @@
         width: 52px;
       }
 
-      .sistem-multimedia .item-link-PYvkNz {
+      .intro .back-end-developer {
+        background-color: transparent;
+        height: 31px;
         left: 0px;
-        width: 280px;
+        letter-spacing: 1px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 310px;
+        width: auto;
       }
 
-      .sistem-multimedia .home-xKusJx {
+      .intro .college {
+        background-color: transparent;
+        height: 19px;
+        left: 91px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 15px;
+        white-space: nowrap;
+        width: 99px;
+      }
+
+      .intro .computer-science {
+        background-color: transparent;
+        height: 99px;
+        left: 0px;
+        letter-spacing: 3.2px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 188px;
+        width: auto;
+      }
+
+      .intro .contact-me {
+        background-color: transparent;
+        height: 19px;
+        left: 91px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 15px;
+        white-space: nowrap;
+        width: 99px;
+      }
+
+      .intro .gallery {
+        background-color: transparent;
+        height: 19px;
+        left: 91px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 15px;
+        white-space: nowrap;
+        width: 99px;
+      }
+
+      .intro .game-developer {
+        background-color: transparent;
+        height: 31px;
+        left: 570px;
+        letter-spacing: 1px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 310px;
+        width: auto;
+      }
+
+      .intro .group-1 {
+        background-color: transparent;
+        height: 49px;
+        left: 261px;
+        position: relative;
+        top: 0px;
+        width: 1399px;
+      }
+
+      .intro .group-6 {
+        background-color: transparent;
+        height: 400px;
+        position: absolute;
+      }
+
+      .intro .hi {
+        background-color: transparent;
+        height: 99px;
+        left: 0px;
+        letter-spacing: 3.2px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 0px;
+        width: 491px;
+      }
+
+      .intro .home {
         background-color: transparent;
         height: 19px;
         left: 117px;
@@ -355,42 +1106,24 @@
         width: 46px;
       }
 
-      .sistem-multimedia .arrow-left-circle-7cbsGm {
+      .intro .im-yusuf-budiawan-azri {
         background-color: transparent;
-        height: 75px;
-        left: 132px;
-        position: absolute;
-        top: 87px;
-        width: 75px;
-      }
-
-      .sistem-multimedia .title-7cbsGm {
-        background-color: transparent;
-        color: var(--tussock);
-        font-family: var(--font-family-righteous);
-        font-size: var(--font-size-l);
-        font-style: normal;
-        font-weight: 400;
-        height: 43px;
-        left: 261px;
-        letter-spacing: 1.4px;
+        height: 99px;
+        left: 0px;
+        letter-spacing: 3.2px;
         line-height: normal;
         position: absolute;
         text-align: left;
-        top: 102px;
-        width: auto;
+        top: 94px;
+        width: 993px;
       }
 
-      .sistem-multimedia .rectangle-7-7cbsGm {
-        background-color: var(--tussock);
-        height: 1px;
-        left: 261px;
+      .intro .image {
+        background-color: transparent;
         position: absolute;
-        top: 146px;
-        width: 91px;
       }
 
-      .sistem-multimedia .item-link {
+      .intro .item-link {
         background-color: transparent;
         border: 0.20000000298023224px solid;
         border-color: var(--tussock);
@@ -398,70 +1131,560 @@
         position: absolute;
         top: 0px;
       }
+
+      .intro .mobile-app-developer {
+        background-color: transparent;
+        height: 31px;
+        left: 274px;
+        letter-spacing: 1px;
+        line-height: normal;
+        position: absolute;
+        text-align: left;
+        top: 310px;
+        width: auto;
+      }
+
+      .intro .nama-dosen {
+        background-color: transparent;
+        height: 23px;
+        letter-spacing: 0px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        white-space: nowrap;
+        width: auto;
+      }
+
+      .intro .nav-list {
+        background-color: var(--bunker);
+        height: 49px;
+        left: 0px;
+        overflow: hidden;
+        top: 0px;
+        width: 1920px;
+      }
+
+      .intro .rectangle-16 {
+        background-color: transparent;
+        height: 400px;
+        position: absolute;
+        top: 0px;
+        width: 400px;
+      }
     </style>
   </head>
   <body style="margin: 0; background: #141516">
-    <input
-      type="hidden"
-      id="anPageName"
-      name="page"
-      value="sistem-multimedia"
-    />
+    <input type="hidden" id="anPageName" name="page" value="intro" />
     <div class="container-center-horizontal">
-      <div class="sistem-multimedia screen" data-id="39:22">
-        <div class="nav-list-7cbsGm" data-id="39:23">
-          <div class="group-1-5YU6RV" data-id="39:24">
-            <div class="item-link-oLyZuq item-link" data-id="39:25">
+      <div class="intro screen" data-id="3:776">
+        <p
+          class="university-of-riau-s-a1KK9a valign-text-middle"
+          data-id="3:778"
+        >
+          University of Riau student currently in semester 2 who has a lot of
+          curiosity about Back End Developer, Mobile App Developer, Game
+          Developer.
+        </p>
+        <p
+          class="a-b-o-u-t-a1KK9a valign-text-middle righteous-normal-tussock-35px"
+          data-id="3:779"
+        >
+          A B O U T
+        </p>
+        <div class="rectangle-3-a1KK9a" data-id="3:780"></div>
+        <p
+          class="k-u-l-i-a-h-a1KK9a valign-text-middle righteous-normal-tussock-35px"
+          data-id="10:134"
+        >
+          K U L I A H
+        </p>
+        <p
+          class="g-a-l-l-e-r-y-a1KK9a valign-text-middle righteous-normal-tussock-35px"
+          data-id="32:2"
+        >
+          G A L L E R Y
+        </p>
+        <div class="rectangle-4-a1KK9a" data-id="10:135"></div>
+        <div class="rectangle-5-a1KK9a" data-id="10:138"></div>
+        <p
+          class="c-o-n-t-a-c-t-m-e-a1KK9a valign-text-middle righteous-normal-tussock-35px"
+          data-id="18:243"
+        >
+          C O N T A C T&nbsp;&nbsp;M E
+        </p>
+        <div class="rectangle-6-a1KK9a" data-id="18:244"></div>
+        <div class="frame-1-a1KK9a" data-id="3:781"></div>
+        <img
+          class="rectangle-2-a1KK9a"
+          data-id="3:783"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+          anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/rectangle-2.svg"
+          alt="Rectangle 2"
+        />
+        <div class="download-cv-a1KK9a valign-text-middle" data-id="3:784">
+          DOWNLOAD CV
+        </div>
+        <p
+          class="beberapa-matkul-di-semester-2-a1KK9a valign-text-middle righteous-normal-white-30px"
+          data-id="10:132"
+        >
+          Beberapa Matkul di semester 2
+        </p>
+        <p
+          class="jangan-ragu-untuk-me-a1KK9a valign-text-middle righteous-normal-white-30px"
+          data-id="18:246"
+        >
+          Jangan ragu untuk mengirim pesan kepada ku yang berkaitan dengan tech,
+          game, dan lain lain
+        </p>
+        <p
+          class="ini-adalah-galeri-ya-a1KK9a valign-text-middle righteous-normal-white-30px"
+          data-id="18:294"
+        >
+          Ini adalah galeri yang memamerkan aktivitas terkini saya. Silakan
+          jelajahi dan lihat!
+        </p>
+        <div class="group-3-a1KK9a" data-id="3:809">
+          <h1
+            class="im-yusuf-budiawan-azri valign-text-middle righteous-normal-white-80px"
+            data-id="3:810"
+          >
+            I’m Yusuf Budiawan Azri
+          </h1>
+          <div
+            class="hi valign-text-middle righteous-normal-white-80px"
+            data-id="3:20"
+          >
+            HI....
+          </div>
+          <div
+            class="computer-science valign-text-middle righteous-normal-white-80px"
+            data-id="3:812"
+          >
+            Computer Science
+          </div>
+          <div
+            class="back-end-developer valign-text-middle righteous-normal-stack-25px"
+            data-id="3:813"
+          >
+            Back End Developer
+          </div>
+          <div
+            class="mobile-app-developer valign-text-middle righteous-normal-stack-25px"
+            data-id="3:814"
+          >
+            Mobile App Developer
+          </div>
+          <div
+            class="game-developer valign-text-middle righteous-normal-stack-25px"
+            data-id="3:815"
+          >
+            Game Developer
+          </div>
+          <div
+            class="im-yusuf-budiawan-azri valign-text-middle righteous-normal-white-80px"
+            data-id="3:816"
+          >
+            I’m Yusuf Budiawan Azri
+          </div>
+          <div
+            class="hi valign-text-middle righteous-normal-white-80px"
+            data-id="3:817"
+          >
+            HI....
+          </div>
+          <div
+            class="computer-science valign-text-middle righteous-normal-white-80px"
+            data-id="3:818"
+          >
+            Computer Science
+          </div>
+          <div
+            class="back-end-developer valign-text-middle righteous-normal-stack-25px"
+            data-id="3:819"
+          >
+            Back End Developer
+          </div>
+          <div
+            class="mobile-app-developer valign-text-middle righteous-normal-stack-25px"
+            data-id="3:820"
+          >
+            Mobile App Developer
+          </div>
+          <div
+            class="game-developer valign-text-middle righteous-normal-stack-25px"
+            data-id="3:821"
+          >
+            Game Developer
+          </div>
+        </div>
+        <div class="nav-list-a1KK9a nav-list" data-id="3:822">
+          <div class="group-1" data-id="3:823">
+            <div class="item-link-rLeMen item-link" data-id="3:832">
               <div
-                class="contact-me-x4Qq3e valign-text-middle roboto-normal-white-16px"
-                data-id="39:26"
+                class="contact-me valign-text-middle roboto-normal-white-16px"
+                data-id="3:833"
               >
                 CONTACT ME
               </div>
             </div>
-            <div class="item-link-OwUBNj item-link" data-id="39:27">
+            <div class="item-link-yFA2bo item-link" data-id="3:830">
               <div
-                class="gallery-5FxaQx valign-text-middle roboto-normal-white-16px"
-                data-id="39:28"
+                class="gallery valign-text-middle roboto-normal-white-16px"
+                data-id="3:831"
               >
                 GALLERY
               </div>
             </div>
-            <div class="item-link-pRI5Ri item-link" data-id="39:29">
+            <div class="item-link-dVjLNQ item-link" data-id="3:824">
               <div
-                class="college-CDPzI5 valign-text-middle roboto-normal-white-16px"
-                data-id="39:30"
+                class="college valign-text-middle roboto-normal-white-16px"
+                data-id="3:825"
               >
                 COLLEGE
               </div>
             </div>
-            <div class="item-link-RAxISx item-link" data-id="39:31">
+            <div class="item-link-OUQ26I item-link" data-id="3:826">
               <div
-                class="about-kYjB5l valign-text-middle roboto-normal-white-16px"
-                data-id="39:32"
+                class="about valign-text-middle roboto-normal-white-16px"
+                data-id="3:827"
               >
                 ABOUT
               </div>
             </div>
-            <div class="item-link-PYvkNz item-link" data-id="39:33">
+            <div class="item-link-y4J7pz item-link" data-id="3:828">
               <div
-                class="home-xKusJx valign-text-middle roboto-normal-white-16px"
-                data-id="39:34"
+                class="home valign-text-middle roboto-normal-white-16px"
+                data-id="3:829"
               >
                 HOME
               </div>
             </div>
           </div>
         </div>
-        <img
-          class="arrow-left-circle-7cbsGm"
-          data-id="39:35"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-          anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa48cc0f1f023f61dbd2c7/img/arrow-left-circle.svg"
-          alt="arrow-left-circle"
-        />
-        <h1 class="title-7cbsGm valign-text-middle" data-id="39:39">U T S</h1>
-        <div class="rectangle-7-7cbsGm" data-id="39:40"></div>
+        <div class="group-7-a1KK9a" data-id="10:115">
+          <div class="group-6-TrSGEt group-6" data-id="10:60">`
+            <img
+              class="rectangle-16-uxrqXs rectangle-16"
+              data-id="10:61"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa3c0105bbd10892a8c32b/img/rectangle-16.svg"
+              alt="Rectangle 16"
+            />
+            <div
+              class="sistem-multimedia-uxrqXs valign-text-middle roboto-bold-white-30px"
+              data-id="10:62"
+            >
+              SISTEM MULTIMEDIA
+            </div>
+            <div
+              class="nama-dosen-uxrqXs valign-text-middle nama-dosen roboto-normal-white-20px"
+              data-id="10:63"
+            >
+              Nama Dosen
+            </div>
+            <p
+              class="mata-kuliah-sistem-m-uxrqXs valign-text-middle roboto-normal-white-16px"
+              data-id="10:64"
+            >
+              Mata kuliah sistem multimedia merupakan matkul yang mempelajari
+              penggunaan komputer untuk menyajikan dan menggabungkan teks suara,
+              gambar, animasi, audio, video
+            </p>
+            <img
+              class="image-1-uxrqXs"
+              data-id="10:65"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/image-1.png"
+              alt="image 1"
+            />
+          </div>
+          <div class="group-6-3d5Ncs group-6" data-id="10:76">
+            <img
+              class="rectangle-16-yRLG3S rectangle-16"
+              data-id="10:77"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa3c0105bbd10892a8c32b/img/rectangle-16.svg"
+              alt="Rectangle 16"
+            />
+            <div
+              class="algoritma-struktur-data-yRLG3S valign-text-middle roboto-bold-white-30px"
+              data-id="10:78"
+            >
+              ALGORITMA &amp; STRUKTUR DATA
+            </div>
+            <div
+              class="nama-dosen-yRLG3S valign-text-middle nama-dosen roboto-normal-white-20px"
+              data-id="10:79"
+            >
+              Nama Dosen
+            </div>
+            <p
+              class="mata-kuliah-ini-memp-yRLG3S valign-text-middle roboto-normal-white-16px"
+              data-id="10:80"
+            >
+              Mata kuliah ini mempelajari algoritma sebagai alur menyelesaikan
+              masalah seperti, dimana struktur data menjadi pengikat
+            </p>
+            <img
+              class="image-yRLG3S image"
+              data-id="10:81"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/image.png"
+              alt="image"
+            />
+          </div>
+          <div class="group-6-xpxgdR group-6" data-id="10:92">
+            <img
+              class="rectangle-16-utJJ15 rectangle-16"
+              data-id="10:93"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa3c0105bbd10892a8c32b/img/rectangle-16.svg"
+              alt="Rectangle 16"
+            />
+            <div
+              class="sitem-digital-utJJ15 valign-text-middle roboto-bold-white-30px"
+              data-id="10:94"
+            >
+              SITEM DIGITAL
+            </div>
+            <div
+              class="nama-dosen-utJJ15 valign-text-middle nama-dosen roboto-bold-white-20px"
+              data-id="10:95"
+            >
+              Nama Dosen
+            </div>
+            <p
+              class="mata-kuliah-sistem-d-utJJ15 valign-text-middle roboto-bold-white-16px"
+              data-id="10:96"
+            >
+              Mata kuliah sistem digital merupakan mata kuliah yang mempelajari
+              tentang bagaimana penggunaan teknologi digital dalam pemrosesan
+              informasi.
+            </p>
+            <img
+              class="image-utJJ15 image"
+              data-id="10:97"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/image-2.png"
+              alt="image"
+            />
+          </div>
+          <div class="group-6-eA7G6H group-6" data-id="10:108">
+            <img
+              class="rectangle-16-IyYToD rectangle-16"
+              data-id="10:109"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa3c0105bbd10892a8c32b/img/rectangle-16.svg"
+              alt="Rectangle 16"
+            />
+            <div
+              class="interaksi-manusia-komputer-IyYToD valign-text-middle roboto-bold-white-30px"
+              data-id="10:110"
+            >
+              INTERAKSI MANUSIA &amp; KOMPUTER
+            </div>
+            <div
+              class="nama-dosen-IyYToD valign-text-middle nama-dosen roboto-bold-white-20px"
+              data-id="10:111"
+            >
+              Nama Dosen
+            </div>
+            <p
+              class="mata-kuliah-interaks-IyYToD valign-text-middle roboto-bold-white-16px"
+              data-id="10:112"
+            >
+              Mata kuliah interaksi manusia dan komputer merupakan mata kuliah
+              yang mengajarkan tentang bagaimana interaksi antar manusia
+              terhadap komputer serta perannya dalam mewujudkan perangkat lunak
+              yang tepat
+            </p>
+            <img
+              class="image-IyYToD image"
+              data-id="10:113"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/image-3.png"
+              alt="image"
+            />
+          </div>
+          <div class="group-6-ndegiL group-6" data-id="10:100">
+            <img
+              class="rectangle-16-242ci9 rectangle-16"
+              data-id="10:101"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa3c0105bbd10892a8c32b/img/rectangle-16.svg"
+              alt="Rectangle 16"
+            />
+            <div
+              class="matematika-diskrit-242ci9 valign-text-middle roboto-bold-white-30px"
+              data-id="10:102"
+            >
+              MATEMATIKA DISKRIT
+            </div>
+            <div
+              class="nama-dosen-242ci9 valign-text-middle nama-dosen roboto-bold-white-20px"
+              data-id="10:103"
+            >
+              Nama Dosen
+            </div>
+            <p
+              class="mata-kuliah-matemati-242ci9 valign-text-middle roboto-bold-white-16px"
+              data-id="10:104"
+            >
+              Mata kuliah matematika diskrit merupakan mata kuliah yang
+              mempelajari tentang struktur matematika yang dapat dihitung atau
+              berbeda serta dapat dipisahkan
+            </p>
+            <img
+              class="image-242ci9 image"
+              data-id="10:121"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa413646e9cd0a1d021240/img/image-4@2x.png"
+              alt="image"
+            />
+          </div>
+          <div class="group-6-CxLF1B group-6" data-id="10:68">
+            <img
+              class="rectangle-16-Roruq6 rectangle-16"
+              data-id="10:69"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa3c0105bbd10892a8c32b/img/rectangle-16.svg"
+              alt="Rectangle 16"
+            />
+            <div
+              class="arsitektur-organisasi-komputer-Roruq6 valign-text-middle roboto-bold-white-30px"
+              data-id="10:70"
+            >
+              ARSITEKTUR &amp; ORGANISASI KOMPUTER
+            </div>
+            <div
+              class="nama-dosen-Roruq6 valign-text-middle nama-dosen roboto-normal-white-20px"
+              data-id="10:71"
+            >
+              Nama Dosen
+            </div>
+            <p
+              class="mata-kuliah-ini-meru-Roruq6 valign-text-middle roboto-normal-white-16px"
+              data-id="10:72"
+            >
+              Mata kuliah ini merupakan mata kuliah untuk mempelajari dasar
+              dasar yang ada di komputer serta penggunaanya dan apa saja
+              struktur dari komputer tersebut
+            </p>
+            <img
+              class="image-Roruq6 image"
+              data-id="10:73"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+              anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/image-4.png"
+              alt="image"
+            />
+          </div>
+        </div>
+        <div class="group-8-a1KK9a" data-id="18:241">
+          <img
+            class="envelope-streamline-bootstrap-yPKhNi"
+            data-id="18:227"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/envelope--streamline-bootstrap.svg"
+            alt="Envelope--Streamline-Bootstrap"
+          /><img
+            class="whatsapp-streamline-font-awesome-yPKhNi"
+            data-id="18:203"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/whatsapp--streamline-font-awesome.svg"
+            alt="Whatsapp--Streamline-Font-Awesome"
+          /><img
+            class="instagram-streamline-bootstrap-yPKhNi"
+            data-id="18:230"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/instagram--streamline-bootstrap.svg"
+            alt="Instagram--Streamline-Bootstrap"
+          /><img
+            class="github-streamline-bootstrap-yPKhNi"
+            data-id="18:221"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/github--streamline-bootstrap.svg"
+            alt="Github--Streamline-Bootstrap"
+          /><img
+            class="facebook-streamline-bootstrap-yPKhNi"
+            data-id="18:233"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/facebook--streamline-bootstrap.svg"
+            alt="Facebook--Streamline-Bootstrap"
+          /><img
+            class="twitter-x-streamline-bootstrap-yPKhNi"
+            data-id="18:236"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/twitter-x--streamline-bootstrap.svg"
+            alt="Twitter-X--Streamline-Bootstrap"
+          /><img
+            class="discord-streamline-bootstrap-yPKhNi"
+            data-id="18:209"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/discord--streamline-bootstrap.svg"
+            alt="Discord--Streamline-Bootstrap"
+          /><img
+            class="telegram-streamline-bootstrap-yPKhNi"
+            data-id="18:212"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+            anima-src="https://cdn.animaapp.com/projects/67fa1e4752f17bd1203d1c3f/releases/67fa1ebe52f17bd1203d1c47/img/telegram--streamline-bootstrap.svg"
+            alt="Telegram--Streamline-Bootstrap"
+          />
+        </div>
+        <footer class="footer-a1KK9a" data-id="18:290">
+          <div class="separator-Ohlbpi" data-id="18:291"></div>
+          <div
+            class="yusuf-budiawan-azri-Ohlbpi valign-text-middle"
+            data-id="18:292"
+          >
+            Yusuf Budiawan Azri
+          </div>
+        </footer>
+        <div class="frame-8-a1KK9a" data-id="18:296"></div>
+        <div class="nav-list-W6NDaq nav-list" data-id="18:708">
+          <div class="group-1" data-id="18:709">
+            <div class="item-link-Z0udIz item-link" data-id="18:710">
+              <div
+                class="contact-me valign-text-middle roboto-normal-white-16px"
+                data-id="18:711"
+              >
+                CONTACT ME
+              </div>
+            </div>
+            <div class="item-link-CTUtAl item-link" data-id="18:712">
+              <div
+                class="gallery valign-text-middle roboto-normal-white-16px"
+                data-id="18:713"
+              >
+                GALLERY
+              </div>
+            </div>
+            <div class="item-link-pUBn7O item-link" data-id="18:714">
+              <div
+                class="college valign-text-middle roboto-normal-white-16px"
+                data-id="18:715"
+              >
+                COLLEGE
+              </div>
+            </div>
+            <div class="item-link-Jz1XKF item-link" data-id="18:716">
+              <div
+                class="about valign-text-middle roboto-normal-white-16px"
+                data-id="18:717"
+              >
+                ABOUT
+              </div>
+            </div>
+            <div class="item-link-XGJp2Y item-link" data-id="18:718">
+              <div
+                class="home valign-text-middle roboto-normal-white-16px"
+                data-id="18:719"
+              >
+                HOME
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="launchpad-js/launchpad-banner.js" async></script>
